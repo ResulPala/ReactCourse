@@ -1,0 +1,21 @@
+import React from "react";
+import { Nav, NavItem, NavLink, Navbar } from "reactstrap";
+
+
+function CustomNavbar({ links }) {
+    return (
+        <Navbar color="light" light exand="md">
+            <Nav className="mr-auto" navbar>
+                {links.map((link, index) =>
+                    <NavItem key={index}>
+                        <NavLink href={link.url}>{link.title}</NavLink>
+                    </NavItem>
+                )}
+            </Nav>
+
+        </Navbar>
+    );
+
+}
+
+export default CustomNavbar;
