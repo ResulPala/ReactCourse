@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dystopian"
+    },
+    {
+      "id": 2,
+      "name": "Romance"
+    },
+    {
+      "id": 3,
+      "name": "Classics"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "1984",
+      "category_id": 1,
+      "author": "George Orwell"
+    },
+    {
+      "id": 2,
+      "title": "Pride and Prejudice",
+      "category_id": 2,
+      "author": "Jane Austen"
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "category_id": 3,
+      "author": "Harper Lee"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 3
+    }
+  ]
+}

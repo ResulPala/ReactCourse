@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "To-Do"
+    },
+    {
+      "id": 2,
+      "name": "Completed"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Alışveriş yap",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "title": "E-posta gönder",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Spor yap",
+      "category_id": 1
+    }
+  ]
+}

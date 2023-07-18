@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Şehir"
+    },
+    {
+      "id": 2,
+      "name": "İlçe"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "İstanbul",
+      "category_id": 1,
+      "temperature": 24,
+      "weather": "Güneşli"
+    },
+    {
+      "id": 2,
+      "name": "Ankara",
+      "category_id": 1,
+      "temperature": 21,
+      "weather": "Parçalı Bulutlu"
+    },
+    {
+      "id": 3,
+      "name": "İzmir",
+      "category_id": 1,
+      "temperature": 26,
+      "weather": "Açık"
+    }
+  ],
+  "selectedLocation": 1
+}

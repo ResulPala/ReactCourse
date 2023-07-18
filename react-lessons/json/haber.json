@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics"
+    },
+    {
+      "id": 2,
+      "name": "Sports"
+    },
+    {
+      "id": 3,
+      "name": "Technology"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Breaking News",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Sports Update",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Technology Trends",
+      "category_id": 3
+    }
+  ]
+}

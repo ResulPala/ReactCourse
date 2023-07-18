@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Arkadaşlar"
+    },
+    {
+      "id": 2,
+      "name": "Aile"
+    },
+    {
+      "id": 3,
+      "name": "İlgi Alanları"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "Ahmet",
+      "content": "Merhaba herkese!",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "author": "Ayşe",
+      "content": "Tatilimin keyfini çıkarıyorum!",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "author": "Mehmet",
+      "content": "Yeni film çıkışına çok heyecanlıyım!",
+      "category_id": 3
+    }
+  ],
+  "favorites": [
+    {
+      "id": 2,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 3
+    }
+  ]
+}

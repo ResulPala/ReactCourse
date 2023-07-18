@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Giyim"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Akıllı Telefon",
+      "category_id": 1,
+      "price": 2000,
+      "image": "akilli-telefon.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kadın Tişört",
+      "category_id": 2,
+      "price": 50,
+      "image": "kadin-tisort.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Erkek Gömlek",
+      "category_id": 2,
+      "price": 70,
+      "image": "erkek-gomlek.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "product_id": 3,
+      "quantity": 1
+    }
+  ]
+}
